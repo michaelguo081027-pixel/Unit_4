@@ -11,7 +11,7 @@ for (int y = 75; y <= height; y += 150) {
   for (int x = 75; x <= width; x += 150) {
     fill(0);
     stroke(192);
-    strokeWeight(5);
+    strokeWeight(4);
     triangle(x, y, x, y+75, x+75, y+75);
     triangle(x, y, x-75, y, x-75, y+75);
     triangle(x, y, x, y-75, x-75, y-75);
